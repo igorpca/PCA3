@@ -1,0 +1,69 @@
+nav{
+	position: fixed;
+	background-color: rgb(0, 120, 73);
+	top: 0px;
+	height: 50px;
+	width: 100%;
+}
+
+nav ul{
+	border-bottom: 0px solid;
+	padding-bottom: 10px;
+}
+
+nav li{
+	display: inline-block;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+nav li a{
+	text-decoration: none;
+	padding: 5px;
+	border: 1px solid;
+	border-radius: 10px;
+	color: rgb(205, 205, 205);
+	background-color: rgba(38, 34, 40);
+}
+
+section {
+	/*Esse padding-top e margin-top é para o anchor ficar direito com o menu*/
+	padding-top: 100px;
+	margin-top: -80px;
+	border-bottom: 1px solid;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 1.3em;
+}
+
+
+section h2{
+	text-align: center;
+}
+
+.esquerda{
+	display: inline-block; 
+	padding-right: 20%;
+}
+
+.direita{
+	display: inline-block;
+}
+
+footer a{
+	margin-left: 48%;
+}
+
+footer p{
+	border-top: 1px solid;
+	padding-top: 5px;
+	text-align: right;
+}
+
+footer button{
+	margin-top: 25px;
+	margin-left: 50%;
+	border-top: 1px solid;
+	padding-top: 5px;
+	text-align: right;
+}
